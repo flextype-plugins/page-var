@@ -1,9 +1,9 @@
 # Page Variables Plugin for [Flextype](http://flextype.org/)
-![version](https://img.shields.io/badge/version-1.0.0-brightgreen.svg?style=flat-square)
+![version](https://img.shields.io/badge/version-1.0.1-brightgreen.svg?style=flat-square)
 ![Flextype](https://img.shields.io/badge/Flextype-0.x-green.svg?style=flat-square)
 ![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
 
-Page Variables plugin provides a basic way to craete and access page variables.
+Page Variables plugin provides a basic way to create and access page variables.
 
 ## Installation
 1. Unzip plugin to the folder `/site/plugins/`
