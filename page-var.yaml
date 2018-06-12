@@ -1,0 +1,13 @@
+name: Page Variables
+version: 1.0.0
+description: "Page Variables plugin provides a basic way to craete and access page variables."
+author:
+  name: Sergey Romanenko
+  email: awilum@yandex.ru
+  url: http://flextype.org
+homepage: https://github.com/flextype-plugins/page-var
+bugs: https://github.com/flextype-plugins/page-var/issues
+license: MIT
+
+# Plugin settings
+enabled: true
