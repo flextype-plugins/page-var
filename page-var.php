@@ -20,12 +20,12 @@ use Flextype\Component\{Event\Event, Registry\Registry};
 Event::addListener('onShortcodesInitialized', function () {
 
     // Shortcode: [var_set name="variable-name" value="variable value"]
-    Content::shortcode()->addHandler('var_set', function(ShortcodeInterface $s) {
+    Entries::shortcode()->addHandler('var_set', function(ShortcodeInterface $s) {
         Registry::set('variables.page_var_'.$s->getParameter('name'), $s->getParameter('value'));
     });
 
     // Shortcode: [var_get name="variable-name"]
-    Content::shortcode()->addHandler('var_get', function(ShortcodeInterface $s) {
+    Entries::shortcode()->addHandler('var_get', function(ShortcodeInterface $s) {
         return Registry::get('variables.page_var_'.$s->getParameter('name'));
     });
 });
