@@ -1,5 +1,6 @@
 name: Page Variables
-version: 1.0.3
+version: 1.1.0
+icon: far fa-window-restore
 description: "Page Variables plugin provides a basic way to create and access page variables."
 author:
   name: Sergey Romanenko
